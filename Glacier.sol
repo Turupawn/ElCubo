@@ -82,11 +82,12 @@ contract GlaciersNFT is ERC721 {
 
         setNodeType(0, 1, 100, 1 ether, 1 ether);
         setNodeTypeImages(0,
-            "http...",
-            "http...",
-            "http...",
-            "http...",
-            "http...");
+            "https://raw.githubusercontent.com/Turupawn/ElCubo/master/images/1_full.json",
+            "https://raw.githubusercontent.com/Turupawn/ElCubo/master/images/2_almost_full.json",
+            "https://raw.githubusercontent.com/Turupawn/ElCubo/master/images/3_half.json",
+            "https://raw.githubusercontent.com/Turupawn/ElCubo/master/images/4_a_quarter.json",
+            "https://raw.githubusercontent.com/Turupawn/ElCubo/master/images/5_almost_empty.json",
+            "https://raw.githubusercontent.com/Turupawn/ElCubo/master/images/6_empty.json");
     }
 
     function setNodeTypeImages(uint node_type_id,
